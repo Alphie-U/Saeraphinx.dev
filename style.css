@@ -5,6 +5,14 @@ body {
  margin: 0px;
 }
 
+.footer {
+  font-size: 18px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  text-align: center;
+  color: #303030;
+}
+
 .introText {
   background-image: url(images/smallbanner20.gif);
   background-position: center; 
@@ -151,5 +159,41 @@ button.links.tv {
 
 button.links.tv:hover {
   background-color: #6441A5;
+  color: white;
+}
+
+button.links.redit {
+  background-color: black;
+  border-color: #ff6300;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  color: #ff6300;
+}
+
+button.links.redit:hover {
+  background-color: #ff6300;
+  color: white;
+}
+
+button.links.yt {
+  background-color: black;
+  border-color: #ff0000;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  color: #ff0000;
+}
+
+button.links.yt:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+button.links.dc {
+  background-color: black;
+  border-color: #5865F2;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  color: #5865F2;
+}
+
+button.links.dc:hover {
+  background-color: #5865F2;
   color: white;
 }
